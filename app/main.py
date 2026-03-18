@@ -3,8 +3,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 
-from FastAPI_Render.app.config import settings
-from FastAPI_Render.app.database import check_database_connection, get_database_time
+from app.config import settings
+from app.database import check_database_connection, get_database_time
 
 app = FastAPI(
     title="FastAPI Render AlwaysData API",

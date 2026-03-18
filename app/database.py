@@ -3,7 +3,7 @@ from typing import Optional
 import psycopg2
 from psycopg2.extensions import connection as PgConnection
 
-from FastAPI_Render.app.config import settings
+from app.config import settings
 
 
 def get_connection() -> PgConnection:
